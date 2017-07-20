@@ -53,6 +53,10 @@ let config = {
         }],
         exclude: /node_modules/,
         include: __dirname,
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        loader: "file-loader"
       }
     ]
   },

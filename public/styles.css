@@ -1,2 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300);@font-face {
+  font-family: 'Gotham';
+  src: url(eca1317ee8a99162d0d0e2df77330cec.otf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: 'Gotham';
+  src: url(e19c20e966bde501f94e41cd0322dbe8.otf);
+  font-weight: 600; }
+
+html, body {
+  font-family: "Gotham", "Helvetica Neue", sans-serif; }
+
 body {
-  background-color: red; }
+  background-color: whitesmoke; }
