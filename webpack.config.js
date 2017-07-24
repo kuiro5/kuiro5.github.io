@@ -23,7 +23,10 @@ let config = {
         exclude: /node_modules/,
         loader: 'babel-loader'
       },
-
+      {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+      },
       {
         test: /\.scss$/,
         use: ['css-hot-loader'].concat(ExtractTextWebpackPlugin.extract({
@@ -64,7 +67,7 @@ let config = {
     new ExtractTextWebpackPlugin('styles.css')
   ],
   devServer: {
-    contentBase: path.resolve(__dirname, './public'),
+    contentBase: path.resolve(__dirname, './'),
     historyApiFallback: true,
     inline: true,
     open: true,

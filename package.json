@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/webpack --progress && ./node_modules/.bin/webpack-dev-server -d --hot --config webpack.config.js --watch",
-    "build": "NODE_ENV=production ./node_modules/.bin/webpack --progress"
+    "production": "NODE_ENV=production ./node_modules/.bin/webpack --progress"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,20 @@
+@import 'variables';
+$variable: whitesmoke;
+
+body {
+  background-color: $variable;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  color: $blue;
+}
+
+p {
+  line-height: 20px;
+}

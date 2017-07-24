@@ -1,16 +1,5 @@
+@import 'normalize';
 @import 'typeface';
-$variable: whitesmoke;
+@import 'base';
+@import 'about';
 
-body {
-  background-color: $variable;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.about {
-  max-width: 600px;
-}
