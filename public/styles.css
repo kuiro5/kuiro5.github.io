@@ -400,7 +400,8 @@ template {
   font-weight: 600; }
 
 html, body {
-  font-family: "Georgia", sans-serif; }
+  font-family: "Merriweather", sans-serif;
+  font-size: 14px; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Gotham", "Helvetica Neue", sans-serif; }

@@ -25,7 +25,7 @@ let config = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader")
+        loader: ExtractTextWebpackPlugin.extract("style-loader", "css-loader")
       },
       {
         test: /\.scss$/,
