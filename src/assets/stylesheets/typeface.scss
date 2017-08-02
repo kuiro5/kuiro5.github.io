@@ -1,5 +1,9 @@
 @import 'variables';
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 
 @font-face{
   font-family: 'Gotham';
@@ -13,11 +17,3 @@
   font-weight: $boldFontWeight;
 }
 
-html, body {
-  font-family: $serifFontFamily;
-  font-size: 14px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: $sansFontFamily;
-}

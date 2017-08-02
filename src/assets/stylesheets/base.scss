@@ -1,15 +1,43 @@
 @import 'variables';
 
-.container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+html, body {
+  font-family: $sansFontFamily;
+  font-size: 16px;
+  line-height: 1.4em;
+  color: $black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sansFontFamily;
 }
 
 a {
   color: $blue;
 }
 
-p {
-  line-height: 20px;
+.container-welcome {
+  font-family: $serifFontFamily;
+  font-weight: bold;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.container--section {
+  max-width: 700px;
+  width: 100%;
+}
+
+.container--footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 100%;
+  font-family: $sansFontFamily;
+  font-size: .8em;
+}
+
