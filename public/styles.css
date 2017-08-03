@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Merriweather:300);@import url(https://fonts.googleapis.com/css?family=Playfair+Display);@import url(https://fonts.googleapis.com/css?family=Space+Mono);@import url(https://fonts.googleapis.com/css?family=Karla);/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+@import url(https://fonts.googleapis.com/css?family=Karla);/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -389,27 +389,23 @@ template {
 [hidden] {
   display: none; }
 
-@font-face {
-  font-family: 'Gotham';
-  src: url(eca1317ee8a99162d0d0e2df77330cec.otf);
-  font-weight: 400; }
-
-@font-face {
-  font-family: 'Gotham';
-  src: url(e19c20e966bde501f94e41cd0322dbe8.otf);
-  font-weight: 600; }
-
 html, body {
   font-family: "Karla", "Helvetica Neue", sans-serif;
   font-size: 16px;
   line-height: 1.4em;
   color: rgba(0, 0, 0, 0.87); }
 
+* {
+  box-sizing: border-box; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Karla", "Helvetica Neue", sans-serif; }
 
 a {
-  color: #2b00f7; }
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none; }
+  a:not i {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.87); }
 
 .container-welcome {
   font-family: "Georgia", sans-serif;
@@ -419,16 +415,26 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 40px; }
+  padding: 40px 40px 0px 40px; }
 
 .container--section {
   max-width: 700px;
   width: 100%; }
 
-.container--footer {
+.container--section-center {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.container--icon {
+  padding: .8em; }
+
+.footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 100%;
   font-family: "Karla", "Helvetica Neue", sans-serif;
-  font-size: .8em; }
+  font-size: .8em;
+  padding: 10px; }

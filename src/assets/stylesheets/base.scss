@@ -7,12 +7,18 @@ html, body {
   color: $black;
 }
 
+*{ box-sizing: border-box; }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $sansFontFamily;
 }
 
 a {
-  color: $blue;
+  color: $black;
+  text-decoration: none;
+  &:not i {
+    border-bottom: 1px dotted $black;
+  }
 }
 
 .container-welcome {
@@ -24,7 +30,13 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 40px;
+  padding: 40px 40px 0px 40px;
+}
+
+.container--name {
+//  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+//  -webkit-background-clip: text;
+//  -webkit-text-fill-color: transparent;
 }
 
 .container--section {
@@ -32,12 +44,24 @@ a {
   width: 100%;
 }
 
-.container--footer {
+.container--section-center {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container--icon {
+  padding: .8em;
+}
+
+.footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   width: 100%;
   font-family: $sansFontFamily;
   font-size: .8em;
+  padding: 10px;
 }
 

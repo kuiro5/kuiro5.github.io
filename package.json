@@ -41,6 +41,8 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "ghspa": "^1.0.0"
+    "font-awesome-webpack": "0.0.5-beta.2",
+    "ghspa": "^1.0.0",
+    "less": "^2.7.2"
   }
 }
