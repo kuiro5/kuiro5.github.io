@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $black;
   text-decoration: none;
-  &:not i {
+  &:not(.container__section__icon-link) {
     border-bottom: 1px dotted $black;
   }
 }
 
-.container-welcome {
+.welcome {
   font-family: $serifFontFamily;
   font-weight: bold;
 }
@@ -33,25 +33,25 @@ a {
   padding: 40px 40px 0px 40px;
 }
 
-.container--name {
+.name {
 //  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 //  -webkit-background-clip: text;
 //  -webkit-text-fill-color: transparent;
 }
 
-.container--section {
+.container__section {
   max-width: 700px;
   width: 100%;
 }
 
-.container--section-center {
+.container__section--center {
   max-width: 700px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.container--icon {
+.container__icon {
   padding: .8em;
 }
 
