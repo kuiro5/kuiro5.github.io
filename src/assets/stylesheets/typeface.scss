@@ -1,1 +1,22 @@
+@import 'variables';
+
 @import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+@font-face{
+  font-family: 'Gotham';
+ src: url('../fonts/Gotham-Light.otf');
+ font-weight: $regFontWeight;
+ }
+
+ @font-face{
+   font-family: 'Gotham';
+   src: url('../fonts/Gotham-Book.otf');
+    font-weight: $boldFontWeight;
+  }
+
+@font-face{
+  font-family: 'Avenir';
+ src: url('../fonts/AvenirNextLtPro-Regular.otf');
+ font-weight: $regFontWeight;
+ }
