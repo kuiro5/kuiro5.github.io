@@ -5,6 +5,7 @@ html, body {
   font-size: 16px;
   line-height: 1.4em;
   color: $black;
+  height: 100%;
 }
 
 *{ box-sizing: border-box; }
@@ -64,5 +65,6 @@ a {
   font-family: $sansFontFamily;
   font-size: .8em;
   padding: 10px;
+  margin-top: auto;
 }
 
