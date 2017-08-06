@@ -30,7 +30,7 @@ a {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 40px 40px 0px 40px;
+  height: 100%;
 }
 
 .name {
@@ -42,6 +42,7 @@ a {
 .container__section {
   max-width: 700px;
   width: 100%;
+  padding: 40px 40px 0px 40px;
 }
 
 .container__section--center {
@@ -55,7 +56,7 @@ a {
   padding: .8em;
 }
 
-.footer {
+.container__footer {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
