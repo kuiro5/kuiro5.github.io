@@ -5,7 +5,10 @@ html, body {
   font-size: 16px;
   line-height: 1.4em;
   color: $black;
-  height: 100%;
+}
+
+body {
+  min-height: 100%;
 }
 
 *{ box-sizing: border-box; }
@@ -17,21 +20,25 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: $black;
   text-decoration: none;
-  &:not(.container__section__icon-link) {
+  &:not(.container__icon-link) {
     border-bottom: 1px dotted $black;
   }
-}
-
-.welcome {
-  font-family: $serifFontFamily;
-  font-weight: bold;
 }
 
 .container {
   display: flex;
   align-items: center;
   flex-direction: column;
-  height: 100%;
+  min-height: 100%;
+}
+
+.container__main {
+  padding: 40px 40px 0px 40px;
+}
+
+.container__welcome {
+  font-family: $serifFontFamily;
+  font-weight: bold;
 }
 
 .name {
@@ -43,7 +50,6 @@ a {
 .container__section {
   max-width: 700px;
   width: 100%;
-  padding: 40px 40px 0px 40px;
 }
 
 .container__section--center {
