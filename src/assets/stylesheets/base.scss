@@ -34,6 +34,8 @@ a {
 
 .container__main {
   padding: 40px 40px 0px 40px;
+  max-width: 700px;
+  width: 100%;
 }
 
 .container__welcome {
@@ -47,14 +49,7 @@ a {
 //  -webkit-text-fill-color: transparent;
 }
 
-.container__section {
-  max-width: 700px;
-  width: 100%;
-}
-
 .container__section--center {
-  max-width: 700px;
-  width: 100%;
   display: flex;
   justify-content: center;
 }
