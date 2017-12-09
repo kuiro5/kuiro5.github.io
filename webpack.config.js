@@ -46,7 +46,7 @@ let config = {
         }))
       },
       {
-        test: /\.(jpe?g|png|gif)$/i,
+        test: /\.(jpe?g|jpeg|png|gif)$/i,
         loaders: [
           'file-loader?context=src/assets/images/&name=images/[path][name].[ext]',
           {
