@@ -1,6 +1,7 @@
 @import 'variables';
 
-html, body {
+html,
+body {
   font-family: $sansFontFamily;
   font-size: 16px;
   line-height: 1.4em;
@@ -11,9 +12,16 @@ body {
   min-height: 100%;
 }
 
-*{ box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $sansFontFamily;
 }
 
@@ -47,7 +55,7 @@ a {
 .container__welcome {
   font-family: $serifFontFamily;
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2.3em;
 }
 
 .container__welcome-img-wrapper {
@@ -55,7 +63,6 @@ a {
   justify-content: center;
   align-items: center;
   padding: 1.2em 0em;
-
 }
 
 .container__welcome-img {
@@ -65,9 +72,9 @@ a {
 }
 
 .name {
-//  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-//  -webkit-background-clip: text;
-//  -webkit-text-fill-color: transparent;
+  //  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  //  -webkit-background-clip: text;
+  //  -webkit-text-fill-color: transparent;
 }
 
 .container__section--center {
@@ -76,7 +83,7 @@ a {
 }
 
 .container__icon {
-  padding: .8em;
+  padding: 0.8em;
 }
 
 .container__footer {
@@ -85,8 +92,7 @@ a {
   align-items: flex-end;
   width: 100%;
   font-family: $sansFontFamily;
-  font-size: .8em;
+  font-size: 0.8em;
   padding: 10px;
   margin-top: auto;
 }
-
