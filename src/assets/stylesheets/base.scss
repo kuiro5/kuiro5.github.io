@@ -30,6 +30,12 @@ a {
   align-items: center;
   flex-direction: column;
   min-height: 100%;
+  opacity: 0;
+  transition: opacity .5s ease-in-out 0s;
+}
+
+.container.loaded {
+  opacity: 1;
 }
 
 .container__main {
