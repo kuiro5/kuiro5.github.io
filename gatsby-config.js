@@ -5,7 +5,6 @@ module.exports = {
     description: 'Thoughts & ideas',
     siteUrl: 'http://www.joshkuiros.com',
   },
-  pathPrefix: '/blog',
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
