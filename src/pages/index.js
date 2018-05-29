@@ -69,7 +69,7 @@ class BlogIndex extends React.Component {
           <li>
             <a href="http://tools.buildsci.us/" target="blank" rel="noopener">
               EEBHub
-            </a>: a open source tool to simulate build energy simulation
+            </a>: open source tool to simulate build energy simulation
           </li>
         </ul>
       </div>
