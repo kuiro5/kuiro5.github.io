@@ -23,16 +23,7 @@ class Template extends React.Component {
             marginTop: 0,
           }}
         >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            👋🏻 Hi, I'm Josh
-          </Link>
+          👋🏻 Hi, I'm Josh
         </h1>
       )
     } else {
