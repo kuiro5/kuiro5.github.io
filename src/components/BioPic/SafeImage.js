@@ -1,7 +1,24 @@
 import React from 'react'
+import bowser from 'bowser/bundled'
 
 const SafeImage = props => {
-  if (typeof window !== `undefined`) {
+  const shouldGlitch = () => {
+    if (typeof window === undefined) {
+      return false
+    }
+
+    const browser = bowser.getParser(window.navigator.userAgent)
+    return !browser.satisfies({
+      macos: {
+        safari: '>0',
+      },
+      mobile: {
+        safari: '>0',
+      },
+    })
+  }
+
+  if (shouldGlitch()) {
     const ReactGlitch = require('react-glitch').default
 
     return <ReactGlitch {...props} />
