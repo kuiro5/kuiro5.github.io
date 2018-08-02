@@ -5,7 +5,9 @@ import imgSrc from '../../images/me.jpg'
 class BioPic extends Component {
   constructor() {
     super()
-    this.state = { isGlitching: window.location.pathname === '/' }
+    if (typeof window !== `undefined`) {
+      this.state = { isGlitching: window.location.pathname === '/' }
+    }
     this.GLITCH_DURATION = 4000
 
     this.toggleGlitch = this.toggleGlitch.bind(this)
