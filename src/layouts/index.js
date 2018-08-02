@@ -1,8 +1,8 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import InternalLink from '../components/InternalLink'
 import { Container } from 'react-responsive-grid'
-import './styles.css'
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
+import 'prismjs/themes/prism.css'
 
 class Template extends React.Component {
   render() {
@@ -18,12 +18,11 @@ class Template extends React.Component {
       header = (
         <h1
           style={{
-            //...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
         >
-          👋🏻 Hi, I'm Josh
+          👋 Hi, I'm Josh
         </h1>
       )
     } else {
@@ -33,16 +32,14 @@ class Template extends React.Component {
             marginTop: 0,
           }}
         >
-          <Link
+          <InternalLink
             style={{
-              boxShadow: 'none',
               textDecoration: 'none',
-              color: 'inherit',
             }}
             to={'/'}
           >
             Josh Kuiros
-          </Link>
+          </InternalLink>
         </h3>
       )
     }

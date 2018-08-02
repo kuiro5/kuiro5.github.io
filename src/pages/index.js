@@ -1,10 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import InternalLink from '../components/InternalLink'
+import ExternalLink from '../components/ExternalLink'
+import Code from '../components/Code'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
-
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
+import './styles.css'
 
 class BlogIndex extends React.Component {
   render() {
@@ -25,44 +27,14 @@ class BlogIndex extends React.Component {
                   marginBottom: rhythm(1 / 4),
                 }}
               >
-                <Link to={node.fields.slug}>{title}</Link>
+                <InternalLink to={node.fields.slug}>{title}</InternalLink>
               </h3>
               <small>{node.frontmatter.date}</small>
               <p dangerouslySetInnerHTML={{ __html: node.excerpt }} />
             </div>
           )
         })}
-        <h2>Code</h2>
-        <ul>
-          <li>
-            <a
-              href="https://www1.toutapp.com/university/campaigns-2-0/"
-              target="blank"
-              rel="noopener"
-            >
-              ToutApp Campaigns
-            </a>: digitized playbooks for sales teams
-          </li>
-          <li>
-            <a
-              href="https://www1.toutapp.com/blog/introducing-a-completely-new-templates-experience/"
-              target="blank"
-              rel="noopener"
-            >
-              ToutApp Templates
-            </a>: email communication templates everywhere you work
-          </li>
-          <li>
-            <a href="https://www.ciscospark.com/" target="blank" rel="noopener">
-              Cisco Spark
-            </a>: enterprise messaging platform
-          </li>
-          <li>
-            <a href="http://tools.buildsci.us/" target="blank" rel="noopener">
-              EEBHub
-            </a>: open source tool to simulate build energy simulation
-          </li>
-        </ul>
+        <Code />
       </div>
     )
   }

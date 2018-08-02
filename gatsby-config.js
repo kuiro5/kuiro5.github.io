@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Josh Kuiros',
     author: 'Josh Kuiros',
-    description: 'Thoughts & ideas',
+    description: 'Thoughts & Ideas',
     siteUrl: 'http://www.joshkuiros.com',
   },
   plugins: [
@@ -50,6 +50,15 @@ module.exports = {
       resolve: 'gatsby-plugin-typography',
       options: {
         pathToConfigModule: 'src/utils/typography',
+      },
+    },
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-remark-prismjs`,
+      options: {
+        classPrefix: 'language-',
+        inlineCodeMarker: null,
+        aliases: {},
       },
     },
   ],

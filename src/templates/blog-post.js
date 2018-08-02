@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
+import InternalLink from '../components/InternalLink'
 import get from 'lodash/get'
 
 import Bio from '../components/Bio'
@@ -45,17 +45,17 @@ class BlogPostTemplate extends React.Component {
         >
           {previous && (
             <li>
-              <Link to={previous.fields.slug} rel="prev">
+              <InternalLink to={previous.fields.slug} rel="prev">
                 ← {previous.frontmatter.title}
-              </Link>
+              </InternalLink>
             </li>
           )}
 
           {next && (
             <li>
-              <Link to={next.fields.slug} rel="next">
+              <InternalLink to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
-              </Link>
+              </InternalLink>
             </li>
           )}
         </ul>

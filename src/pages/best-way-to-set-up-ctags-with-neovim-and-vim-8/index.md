@@ -1,6 +1,7 @@
 ---
 title: Best Way to Set up Ctags with Neovim and Vim 8
 date: "2017-11-04T00:42:50.790Z"
+published: true
 ---
 
 Ctags are a great way to navigate large projects when using Vim or Neovim by jumping to definition with a simple command. With the recent addition of async jobs in Vim 8 and Neovim, you can now generate your project’s tags in the background, making the whole process relatively seamless.

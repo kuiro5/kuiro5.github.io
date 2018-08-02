@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/kuiros/.nvm/versions/node/v6.7.0/bin/node',
+1 verbose cli   '/Users/kuiros/.nvm/versions/node/v6.7.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.3
+3 info using node@v6.7.0
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle gatsby-starter-blog@1.0.0~predev: gatsby-starter-blog@1.0.0
+6 silly lifecycle gatsby-starter-blog@1.0.0~predev: no script for predev, continuing
+7 info lifecycle gatsby-starter-blog@1.0.0~dev: gatsby-starter-blog@1.0.0
+8 verbose lifecycle gatsby-starter-blog@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle gatsby-starter-blog@1.0.0~dev: PATH: /Users/kuiros/.nvm/versions/node/v6.7.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/kuiros/code/kuiro5.github.io/node_modules/.bin:/Users/kuiros/.nvm/versions/node/v6.7.0/bin:/Users/kuiros/.nvm/versions/node/v6.7.0/bin:/Users/kuiros/.rvm/gems/ruby-2.3.0/bin:/Users/kuiros/.rvm/gems/ruby-2.3.0@global/bin:/Users/kuiros/.rvm/rubies/ruby-2.3.0/bin:/usr/local/bin:/Library/PostgreSQL/9.4/bin/psql:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/kuiros/.rvm/bin:/usr/local/bin:/Library/PostgreSQL/9.4/bin/psql:/opt/local/bin:/opt/local/sbin:/Users/kuiros/code/go/bin
+10 verbose lifecycle gatsby-starter-blog@1.0.0~dev: CWD: /Users/kuiros/code/kuiro5.github.io
+11 silly lifecycle gatsby-starter-blog@1.0.0~dev: Args: [ '-c', 'gatsby develop' ]
+12 info lifecycle gatsby-starter-blog@1.0.0~dev: Failed to exec dev script
+13 verbose stack Error: gatsby-starter-blog@1.0.0 dev: `gatsby develop`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/Users/kuiros/.nvm/versions/node/v6.7.0/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:877:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid gatsby-starter-blog@1.0.0
+15 verbose cwd /Users/kuiros/code/kuiro5.github.io
+16 error Darwin 16.7.0
+17 error argv "/Users/kuiros/.nvm/versions/node/v6.7.0/bin/node" "/Users/kuiros/.nvm/versions/node/v6.7.0/bin/npm" "run" "dev"
+18 error node v6.7.0
+19 error npm  v3.10.3
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error gatsby-starter-blog@1.0.0 dev: `gatsby develop`
+24 error spawn ENOENT
+25 error Failed at the gatsby-starter-blog@1.0.0 dev script 'gatsby develop'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the gatsby-starter-blog package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     gatsby develop
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs gatsby-starter-blog
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls gatsby-starter-blog
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
