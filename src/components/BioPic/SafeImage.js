@@ -3,19 +3,19 @@ import bowser from 'bowser/bundled'
 
 const SafeImage = props => {
   const shouldGlitch = () => {
-    if (typeof window === undefined) {
+    if (typeof window === `undefined`) {
       return false
+    } else {
+      const browser = bowser.getParser(window.navigator.userAgent)
+      return !browser.satisfies({
+        macos: {
+          safari: '>0',
+        },
+        mobile: {
+          safari: '>0',
+        },
+      })
     }
-
-    const browser = bowser.getParser(window.navigator.userAgent)
-    return !browser.satisfies({
-      macos: {
-        safari: '>0',
-      },
-      mobile: {
-        safari: '>0',
-      },
-    })
   }
 
   if (shouldGlitch()) {
