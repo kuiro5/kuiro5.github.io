@@ -26,9 +26,9 @@ The above settings will work on new files, but what about existing files?
 ```
 # highlight the entire file
 gg
-cmd + v
+shift + v
 G
 
 # format
-gQ
+gq
 ```
