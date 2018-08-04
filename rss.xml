@@ -1,24 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Josh Kuiros]]></title><description><![CDATA[Thoughts & Ideas]]></description><link>http://www.joshkuiros.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 02 Aug 2018 18:55:53 GMT</lastBuildDate><item><title><![CDATA[Minimal Vim Markdown Setup]]></title><description><![CDATA[1. Setting Text Width This will create a max text width for markdown files. 2. Setting Autoformat Options This will autoformat options on…]]></description><link>http://www.joshkuiros.com/minimal-vim-markdown-setup/</link><guid isPermaLink="false">http://www.joshkuiros.com/minimal-vim-markdown-setup/</guid><pubDate>Tue, 03 Jul 2018 15:44:25 GMT</pubDate><content:encoded>&lt;h2&gt;1. Setting Text Width&lt;/h2&gt;
-&lt;p&gt;This will create a max text width for markdown files.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; autocmd BufRead,BufNewFile *.md setlocal textwidth=80&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;h2&gt;2. Setting Autoformat Options&lt;/h2&gt;
-&lt;p&gt;This will autoformat options on change.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt; autocmd BufRead,BufNewFile *.md setlocal formatoptions+=t&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
-&lt;h2&gt;3. Formatting Existing Markdown Files&lt;/h2&gt;
-&lt;p&gt;The above settings will work on new files, but what about existing files?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# highlight the entire file
-gg
-cmd + v
-G
-
-# format
-gQ&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Programming Variable Casing]]></title><description><![CDATA[camelCase / lowerCamelCase PascalCase / UpperCamelCase snake_case kebob-case Train-Case MACRO_CASE]]></description><link>http://www.joshkuiros.com/programming-variable-casing/</link><guid isPermaLink="false">http://www.joshkuiros.com/programming-variable-casing/</guid><pubDate>Thu, 07 Dec 2017 00:42:50 GMT</pubDate><content:encoded>&lt;p&gt;camelCase / lowerCamelCase&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Josh Kuiros]]></title><description><![CDATA[Thoughts & Ideas]]></description><link>http://www.joshkuiros.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 04 Aug 2018 00:21:12 GMT</lastBuildDate><item><title><![CDATA[Programming Variable Casing]]></title><description><![CDATA[camelCase / lowerCamelCase PascalCase / UpperCamelCase snake_case kebob-case Train-Case MACRO_CASE]]></description><link>http://www.joshkuiros.com/programming-variable-casing/</link><guid isPermaLink="false">http://www.joshkuiros.com/programming-variable-casing/</guid><pubDate>Thu, 07 Dec 2017 00:42:50 GMT</pubDate><content:encoded>&lt;p&gt;camelCase / lowerCamelCase&lt;/p&gt;
 &lt;p&gt;PascalCase / UpperCamelCase&lt;/p&gt;
 &lt;p&gt;snake_case&lt;/p&gt;
 &lt;p&gt;kebob-case&lt;/p&gt;
