@@ -2,6 +2,15 @@ backend:
   name: github
   repo: kuiro5/kuiro5.github.io
   branch: develop # Branch to update (optional; defaults to master)
-publish_mode: editorial_workflow
-media_folder: "/static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: static/assets
+public_folder: assets
+collections:
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: body, label: Body, widget: markdown }
