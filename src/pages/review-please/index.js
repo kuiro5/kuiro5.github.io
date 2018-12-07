@@ -1,10 +1,11 @@
 import React from 'react'
 import reviewPleaseImg from '../../images/review-please.png'
 import Bio from '../../components/Bio'
+import Layout from '../../components/Layout'
 import { rhythm } from '../../utils/typography'
 
-const ReviewPlease = () => (
-  <div>
+const ReviewPlease = ({ location }) => (
+  <Layout location={location}>
     <h1>Review Please 👀</h1>
     <p>
       Managing pull requests across multiple teams in different timezones had
@@ -37,7 +38,7 @@ const ReviewPlease = () => (
       }}
     />
     <Bio />
-  </div>
+  </Layout>
 )
 
 export default ReviewPlease
