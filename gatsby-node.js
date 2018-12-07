@@ -71,11 +71,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   }
 }
 
-exports.onCreateWebpackConfig = ({ config, stage }) => {
-  if (stage === 'build-html') {
-    config.loader('null', {
-      test: /react-glitch/,
-      loader: 'null-loader',
-    })
-  }
-}
+//exports.onCreateWebpackConfig = ({ stage, actions }) => {
+//if (stage === 'build-html') {
+//actions.setWebpackConfig('null', {
+//test: /react-glitch/,
+//loader: 'null-loader',
+//})
+//}
+//}
