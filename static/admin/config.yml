@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: kuiro5/kuiro5.github.io
   branch: develop # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "/static/images/uploads"
