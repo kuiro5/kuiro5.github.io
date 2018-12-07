@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import GatsbyLink from 'gatsby-link'
+import { Link } from 'gatsby'
 
-const InternalLink = styled(GatsbyLink)`
+const InternalLink = styled(Link)`
   color: black;
   font-weight: normal;
 

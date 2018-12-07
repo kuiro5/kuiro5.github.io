@@ -18,11 +18,11 @@ const SafeImage = props => {
     }
   }
 
-  if (shouldGlitch()) {
-    const ReactGlitch = require('react-glitch').default
+  //if (shouldGlitch()) {
+  //const ReactGlitch = require('react-glitch').default
 
-    return <ReactGlitch {...props} />
-  }
+  //return <ReactGlitch {...props} />
+  //}
 
   return <img {...props} />
 }

@@ -1,20 +1,23 @@
 import React from 'react'
 import InternalLink from '../components/InternalLink'
 import ExternalLink from '../components/ExternalLink'
+import Layout from '../components/Layout'
 import Code from '../components/Code'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 import Bio from '../components/Bio'
 import { rhythm } from '../utils/typography'
+import { graphql } from 'gatsby'
 import './styles.css'
 
 class BlogIndex extends React.Component {
   render() {
     const siteTitle = get(this, 'props.data.site.siteMetadata.title')
     const posts = get(this, 'props.data.allMarkdownRemark.edges')
+    const location = this.props.location
 
     return (
-      <div>
+      <Layout location={location}>
         <Helmet title={siteTitle} />
         <Bio />
         <h2>Words</h2>
@@ -35,7 +38,7 @@ class BlogIndex extends React.Component {
           )
         })}
         <Code />
-      </div>
+      </Layout>
     )
   }
 }

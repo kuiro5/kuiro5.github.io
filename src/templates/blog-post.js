@@ -1,7 +1,9 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import InternalLink from '../components/InternalLink'
+import Layout from '../components/Layout'
 import get from 'lodash/get'
+import { graphql } from 'gatsby'
 
 import Bio from '../components/Bio'
 import { rhythm, scale } from '../utils/typography'
@@ -10,10 +12,10 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
-    const { previous, next } = this.props.pathContext
+    const { previous, next } = this.props.pageContext
 
     return (
-      <div>
+      <Layout location={this.props.location}>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -59,7 +61,7 @@ class BlogPostTemplate extends React.Component {
             </li>
           )}
         </ul>
-      </div>
+      </Layout>
     )
   }
 }

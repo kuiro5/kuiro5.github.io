@@ -1,7 +1,6 @@
 import React from 'react'
-import InternalLink from '../components/InternalLink'
-import { Container } from 'react-responsive-grid'
-import { rhythm } from '../utils/typography'
+import InternalLink from '../InternalLink'
+import { rhythm } from '../../utils/typography'
 import 'prismjs/themes/prism.css'
 
 class Template extends React.Component {
@@ -44,15 +43,17 @@ class Template extends React.Component {
       )
     }
     return (
-      <Container
+      <div
         style={{
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          marginLeft: 'auto',
+          marginRight: 'auto',
         }}
       >
         {header}
-        {children()}
-      </Container>
+        {children}
+      </div>
     )
   }
 }
