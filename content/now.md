@@ -15,8 +15,6 @@ Working on [Outline](https://heyoutline.com), specifically on giving users a sin
 ## Reading
 I've been reading a lot less this year, but I've recently found myself back in the groove and have been cycling through a few books: The Inner Game of Music, Why We Can't Wait, and The Need for Roots.
 
-There's been a few newsletters that have become immediate reads once they land in the RSS feed: Matt Levine Money Stuff, Bookbear Express,
-
 ## Watching
 A lot of Warriors basketball and Seinfeld.
 
@@ -25,7 +23,7 @@ Waxahatchee St. Cloud,
 
 Sound Radio, Reverberation Radio, New Commute
 
-TILclimate, All Fantasy Everything
+All Fantasy Everything, TILclimate, 
 
 ## Learning
 To wake up earlier.
