@@ -7,7 +7,7 @@ draft: false
 <i>Last updated 2021-11-11</i>
 
 ## Living
-Still in San Francisco!  
+Still in San Francisco  
 
 ## Building
 Working on [Outline](https://heyoutline.com), specifically on giving users a single view of a community member across platforms through the munging of many disparate data sources. I've had a lot of luck with Elixir/Phoenix, I've been meaning to write more about it.
