@@ -33,11 +33,16 @@ p {
 
 a {
     text-decoration: underline dotted var(--black);
+    text-underline-offset: .2em;
 }
 
 a:hover {
     cursor: pointer;
     text-decoration: underline solid var(--black);
+}
+
+strong {
+  font-weight: bold;
 }
 
 .nav__link {
