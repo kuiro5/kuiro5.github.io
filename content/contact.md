@@ -5,6 +5,7 @@ draft: false
 ---
 
 * josh [at] this website [dot] com
+* [Github](https://github.com/kuiro5)
 * [Twitter](https://twitter.com/kuiro5)
 * [Goodreads](https://www.goodreads.com/user/show/21617276-joshua-kuiros)
 * [Pinboard](https://pinboard.in/u:kuiro5)
