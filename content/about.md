@@ -17,6 +17,6 @@ Hi, I'm Josh. Welcome to my humble internet abode 🏡.
 
 **I'm currently spending my days as CTO and Cofounder of [Outline](https://heyoutline.com), helping companies understand and engage with their customer communities.** We founded Outline in July 2019, and we've raised venture capital from [South Park Commons](https://www.southparkcommons.com/), [TnT Ventures](http://tnt.ventures/), and a host of angel investors. 
 
-**I spend time cycling around the Bay Area, [collecting vinyls](https://sudden-iberis-6da.notion.site/13e94733b8014bf1984e62d89de8caa6?v=b3007446c7064e8780622ef1558312f9), fermenting food, and [reading](https://www.goodreads.com/kuiros).** Meditation has been a big part of my life and is a perpetual work in progress.
+**I spend time cycling around the Bay Area, [collecting vinyls](https://sudden-iberis-6da.notion.site/13e94733b8014bf1984e62d89de8caa6?v=b3007446c7064e8780622ef1558312f9), fermenting food, and [reading](https://www.goodreads.com/kuiros).** Meditation has been a big part of my life and a perpetual work in progress.
 
-**I love meeting engineers, founders, and wildly passionate people.** Shoot me an [email](/contact) if you would like to connect.
+**I love meeting engineers, founders, and thoughtful, passionate people.** Shoot me an [email](/contact) if you would like to connect.

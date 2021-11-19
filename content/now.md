@@ -4,7 +4,9 @@ date: 2021-11-11T22:26:48-08:00
 draft: false
 ---
 
-<i>Last updated 2021-11-11</i>
+*Last updated 2021-11-11*
+
+*[What is a "now page"?](https://nownownow.com/about)*
 
 ## Living
 Still in San Francisco!  
@@ -29,6 +31,3 @@ To wake up earlier.
 The ins and outs of restoring a vintage turntable (Garrard 990b).
 
 Diving deeper into climate change
-
-
-<i>[What is a "now page"?](https://nownownow.com/about)</i>
