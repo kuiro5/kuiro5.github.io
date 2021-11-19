@@ -10,7 +10,7 @@ draft: false
 Still in San Francisco!  
 
 ## Building
-Working on [Outline](https://heyoutline.com), specifically on giving users a single view of a community member across platforms through the munging of many disparate data sources. I've had a lot of luck with Elixir/Phoenix, I've been meaning to write more about it.
+Working on [Outline](https://heyoutline.com), specifically on giving users a single view of a community member across platforms through the munging of many disparate data sources. I've had a lot of luck with [Elixir](https://elixir-lang.org/) and [Phoenix](https://www.phoenixframework.org/), I'm overdue for a post about it.
 
 ## Reading
 I've been reading a lot less this year, but I've recently found myself back in the groove and have been cycling through a few books: The Inner Game of Music, Why We Can't Wait, and The Need for Roots.
@@ -19,16 +19,16 @@ I've been reading a lot less this year, but I've recently found myself back in t
 A lot of Warriors basketball and Seinfeld.
 
 ## Listening
-Waxahatchee St. Cloud, 
+Some albums that have been on repeat—Waxahatchee *St. Cloud*, Snail Mail *Valentine*, Helado Negro *Far In*, Bill Evans *At the Village Vanguard*
 
-Sound Radio, Reverberation Radio, New Commute
-
-All Fantasy Everything, TILclimate, 
+Reverberation Radio, New Commute, KEXP
 
 ## Learning
 To wake up earlier.
 
 The ins and outs of restoring a vintage turntable (Garrard 990b).
+
+Diving deeper into climate change
 
 
 <i>[What is a "now page"?](https://nownownow.com/about)</i>
