@@ -21,6 +21,7 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-style: italic;
+    margin-top: 1em;
 }
 
 h1 { font-size: 2em; }
@@ -53,6 +54,15 @@ em {
   font-style: italic;
 }
 
+li {
+  list-style: inside;
+}
+
+ul, ol {
+  margin-top: .5em;
+  margin-bottom: 1em;
+}
+
 .nav__link {
   margin-bottom: 1.5em;
 }
@@ -72,6 +82,10 @@ em {
   flex-direction: column;
 }
 
+.page-title {
+  margin-top: 0em;
+}
+
 .bio {
     display: flex;
     align-items: center;
@@ -88,11 +102,6 @@ em {
 .bio__message {
     display: flex;
     flex-direction: column;
-}
-
-.home-section {
-    margin-top: 2em;
-    margin-bottom: 2em;
 }
 
 .footer {
