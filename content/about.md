@@ -7,11 +7,11 @@ type: "page"
 
 Hi, I'm Josh. Welcome to my humble internet abode 🏡.
 
-**I grew up in Pittsburgh, Pennsylvania.** My parents owned a small, family candy business and were gracious enough to allow me to help with their ecommerce website; my first foray into entrpreneurship and "programmming."
+**I grew up in Pittsburgh, Pennsylvania.** My parents run a small, family candy business and were gracious enough to allow me to help with their ecommerce website; my first foray into entrpreneurship and "programmming."
 
 **I studied Computer Science at Penn State University.** Through an annual [Startup Week](https://startupweek.psu.edu/), I connected with Silicon Valley founders, inspiring me to make the move out west.
 
-**I've built and scaled products and teams from inception through exit.** I've worked alongside the good people at [Cisco](https://www.webex.com/all-new-webex.html), [Toutapp](https://www.marketo.com/software/marketo-sales-connect/), [DataGrail](https://www.datagrail.io/), and [Marketo](https://www.marketo.com/). Category-creating products and low-ego teams are my jam.
+**I've built and scaled products and teams from inception through exit.** I've worked alongside talented people at [Cisco](https://www.webex.com/all-new-webex.html), [Toutapp](https://www.marketo.com/software/marketo-sales-connect/), [DataGrail](https://www.datagrail.io/), and [Marketo](https://www.marketo.com/). Category-creating products and low-ego teams are my jam.
 
 **I enjoy building applications and infrastructure with a love for simplicity, reliability, and flexibility.** I'm a polyglot programmer that believes in choosing the right tool for the job but some recent favorites are Elixir, Python, React, and Kafka.
 

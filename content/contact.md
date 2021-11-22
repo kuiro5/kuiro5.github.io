@@ -3,8 +3,9 @@ title: "Contact"
 date: 2021-11-19T12:00:26-08:00
 draft: false
 ---
+Elsewhere on the internet:
 
-* josh [at] this website [dot] com
+* josh [at] this website
 * [Github](https://github.com/kuiro5)
 * [Twitter](https://twitter.com/kuiro5)
 * [Goodreads](https://www.goodreads.com/user/show/21617276-joshua-kuiros)
