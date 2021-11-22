@@ -38,12 +38,18 @@ p {
 
 a {
     text-decoration: underline dotted var(--black);
+    -webkit-text-decoration-line: underline;
+    -webkit-text-decoration-style: dotted;
+    -webkit-text-decoration-color: var(--black);
     text-underline-offset: .2em;
 }
 
 a:hover {
     cursor: pointer;
     text-decoration: underline solid var(--black);
+    -webkit-text-decoration-line: underline;
+    -webkit-text-decoration-style: solid;
+    -webkit-text-decoration-color: var(--black);
 }
 
 strong {
