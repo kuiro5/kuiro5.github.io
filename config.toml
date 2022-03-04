@@ -1,6 +1,6 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'kuiros.io'
+title = 'Kuiros'
 theme = ['kuiros', 'hugo-shortcode-gallery']
 
 [params]
