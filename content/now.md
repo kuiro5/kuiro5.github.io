@@ -4,7 +4,7 @@ date: 2021-11-11T22:26:48-08:00
 draft: false
 ---
 
-*Last updated 2021-02-23* • *[What is a "now page"?](https://nownownow.com/about)*
+*Last updated 2022-02-23* • *[What is a "now page"?](https://nownownow.com/about)*
 
 ## Living
 Still in San Francisco

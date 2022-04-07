@@ -7,7 +7,7 @@ type: "page"
 
 Hi, I'm Josh. Welcome to my humble internet abode 🏡.
 
-**I grew up in Pittsburgh, Pennsylvania.** My parents run a small, family candy business and were gracious enough to allow me to help with their early ecommerce website; my first foray into entrpreneurship and "programmming."
+**I grew up in Pittsburgh, Pennsylvania.** My parents run a small, family candy business and were gracious enough to allow me to help with their early ecommerce website; my first foray into entrepreneurship and "programmming."
 
 **I hold a degree in Computer Science at Penn State University.** Through an annual [Startup Week](https://startupweek.psu.edu/), I connected with Silicon Valley founders, inspiring me to make the move out west.
 
